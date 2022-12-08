@@ -35,7 +35,7 @@ def calculateTopThreeCalories(ex: List[str], first: int = 0, second: int = 0, th
 
 
 def main() -> int:
-    example01 = openExample("Day01/example01.txt")
+    example01 = openExample("src/examples/ex01.txt")
     print(calculateMaxCalories(example01))
     print(calculateTopThreeCalories(example01))
     return 0
